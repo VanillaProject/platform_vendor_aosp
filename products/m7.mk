@@ -11,7 +11,7 @@ $(call inherit-product, vendor/aosp/config/gsm.mk)
 PRODUCT_NAME := m7
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := m7
-PRODUCT_MODEL := HTC Sensation
+PRODUCT_MODEL := ONE
 PRODUCT_MANUFACTURER := HTC
 
 
