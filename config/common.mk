@@ -59,12 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init.d/06handleswap:system/etc/init.d/06handleswap \
     vendor/aosp/prebuilt/common/etc/init.d/20extgapps:system/etc/init.d/20extgapps
 
-# Apps2sd files
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/bin/a2sd:system/bin/a2sd \
-    vendor/aosp/prebuilt/common/bin/fix_permissions:system/bin/fix_permissions \
-    vendor/aosp/prebuilt/common/xbin/zipalign:system/xbin/zipalign \
-    vendor/aosp/prebuilt/common/etc/init.d/10apps2sd-redux:system/etc/init.d/10apps2sd
+
 
 # Prebuilt commandline tools
 PRODUCT_COPY_FILES += \
@@ -80,7 +75,7 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 
 # Version Info
 PRODUCT_VERSION_MAJOR = 1
-PRODUCT_VERSION_MINOR = 1
+PRODUCT_VERSION_MINOR = 0
 PRODUCT_VERSION_MAINTENANCE = 0
 
 ifeq ($(NIGHTLY_BUILD),true)
