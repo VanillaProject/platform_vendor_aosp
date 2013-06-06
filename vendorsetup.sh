@@ -1,1 +1,1 @@
-add_lunch_combo m7tmo-eng
+add_lunch_combo m7-eng
