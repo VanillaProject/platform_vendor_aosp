@@ -8,7 +8,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, vendor/aosp/config/gsm.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := m7
+PRODUCT_NAME := vanilla_m7
 PRODUCT_BRAND := htc
 PRODUCT_DEVICE := m7
 PRODUCT_MODEL := ONE

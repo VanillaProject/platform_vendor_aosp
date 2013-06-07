@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/m7.mk \
+    $(LOCAL_DIR)/vanilla_m7.mk \
